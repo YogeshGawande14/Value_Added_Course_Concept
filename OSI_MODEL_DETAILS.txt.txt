@@ -1,0 +1,57 @@
+OSI_MODEL_DETAILS.txt
+
+OSI MODEL – Open Systems Interconnection Model
+
+The OSI model is a conceptual framework that describes how data moves through a network in seven layers. Each layer has a specific role.
+
+--------------------------------------------------
+Layer 1: Physical
+- Deals with hardware: cables, switches, signals, voltage.
+- Example: Plugging in a LAN cable, Wi-Fi signals.
+
+Layer 2: Data Link
+- Responsible for node-to-node communication.
+- Uses MAC addresses to identify devices.
+- Example: Your laptop’s MAC address used by a switch.
+
+Layer 3: Network
+- Handles logical addressing and routing.
+- Uses IP addresses to deliver packets across networks.
+- Example: Sending data from 192.168.1.10 to 8.8.8.8.
+
+Layer 4: Transport
+- Ensures reliable delivery of data.
+- Uses TCP (reliable) or UDP (fast).
+- Example: TCP guarantees your file download completes.
+
+Layer 5: Session
+- Manages sessions between applications.
+- Keeps track of ongoing communication.
+- Example: Logging into a Zoom meeting session.
+
+Layer 6: Presentation
+- Formats and encrypts data for the application layer.
+- Example: SSL/TLS encrypting your banking data.
+
+Layer 7: Application
+- Closest to the user.
+- Provides services like HTTP, email, FTP.
+- Example: Using Gmail in your browser.
+
+--------------------------------------------------
+Mnemonic to Remember Layers:
+"Please Do Not Throw Sausage Pizza Away"
+(P – Physical, D – Data Link, N – Network, T – Transport, S – Session, P – Presentation, A – Application)
+
+--------------------------------------------------
+Quick Summary:
+- Physical: Hardware signals
+- Data Link: MAC addresses
+- Network: IP addresses, routing
+- Transport: TCP/UDP reliability
+- Session: Communication sessions
+- Presentation: Data formatting, encryption
+- Application: User-facing services
+
+--------------------------------------------------
+This file explains the OSI model in detail for beginners.
